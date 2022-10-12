@@ -1,0 +1,83 @@
+.calculator {
+  display: flex;
+  flex-wrap: wrap;
+  width: 400px;
+  margin: 0;
+}
+
+.answer {
+  background-color: #000000;
+  color: #FFFFFF;
+  text-align: right;
+  width: 100px;
+  justify-content: space-between;
+  height: 100px;
+  padding-right: 10px;
+  font-size: 30pt;
+}
+
+.bigger-gray-button{
+  background-color: #d8d9db;
+  border-color: #000000;
+  width: 300px;
+  justify-content: space-between;
+  height: 100px;
+  font-size: 30pt;
+}
+
+.bigger-gray-button:hover {
+  background-color: #ebebeb;
+}
+
+.bigger-gray-button:active {
+  background-color: #bbbcbe;
+}
+
+.big-gray-button{
+  background-color: #d8d9db;
+  width: 200px;
+  justify-content: space-between;
+  height: 100px;
+  font-size: 30pt;
+}
+
+.big-gray-button:hover {
+  background-color: #ebebeb;
+}
+
+.big-gray-button:active {
+  background-color: #bbbcbe;
+}
+
+.gray-button {
+  background-color: #d8d9db;
+  width: 100px;
+  justify-content: space-between;
+  height: 100px;
+  font-size: 30pt;
+}
+
+.gray-button:hover {
+  background-color: #ebebeb;
+}
+
+.gray-button:active {
+  background-color: #bbbcbe;
+}
+
+.orange-button {
+  background-color: #df974c;
+  color: #FFFFFF;
+  width: 100px;
+  justify-content: space-between;
+  height: 100px;
+  font-size: 30pt;
+}
+
+.orange-button:hover {
+  background-color: #dfb07e;
+}
+
+.orange-button:active {
+  background-color: #dd8d37;
+}
